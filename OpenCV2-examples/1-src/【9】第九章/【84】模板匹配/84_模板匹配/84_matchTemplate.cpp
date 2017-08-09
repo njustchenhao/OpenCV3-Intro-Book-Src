@@ -50,8 +50,8 @@ int main(  )
 	ShowHelpText();
 
 	//【1】载入原图像和模板块
-	g_srcImage = imread( "1.jpg", 1 );
-	g_templateImage = imread( "2.jpg", 1 );
+	g_srcImage = imread( "3.jpg", 1 );
+	g_templateImage = imread( "4_5.jpg", 1 );
 
 	//【2】创建窗口
 	namedWindow( WINDOW_NAME1, CV_WINDOW_AUTOSIZE );
